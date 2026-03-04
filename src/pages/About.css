@@ -1,7 +1,6 @@
 .about {
-  padding-top: 5rem;
+  padding-top: 2rem;
   padding-bottom: 2.5rem;
-  position: relative;
 }
 
 /* Arrow back */
@@ -28,37 +27,57 @@
   opacity: 0.8;
 }
 
-.aboutInner {
-  max-width: 900px;
+/* Layout: billeder venstre, tekst højre */
+.aboutLayout {
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 16px;
 
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 32px;
-  align-items: center;
+  grid-template-columns: 1.2fr 0.8fr; /* billeder bredere, tekst smallere */
+  gap: 48px;
+  align-items: start;
 }
 
+/* Instagram-agtigt grid: 2 billeder per række */
+.aboutGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+/* Ens “kort” look */
 .aboutImg {
   width: 100%;
-  height: auto;
+  aspect-ratio: 1 / 1;   /* instagram-ish (kvadrat) */
   object-fit: cover;
   display: block;
+  background: #f3f3f3;
 }
 
-.aboutText {
-  text-align: right;
-  font-size: 14px;
+/* Tekst */
+.aboutText h1 {
+  margin: 0 0 14px 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.aboutText p {
+  margin: 0 0 14px 0;
+  font-size: 16px;
+  line-height: 1.7;
   color: #111;
-  line-height: 1.6;
+  opacity: 0.9;
 }
 
+/* Mobil: 1 kolonne, grid først, tekst under */
 @media (max-width: 768px) {
-  .aboutInner {
+  .aboutLayout {
     grid-template-columns: 1fr;
+    gap: 24px;
   }
 
-  .aboutText {
-    text-align: center;
+  .aboutGrid {
+    gap: 12px;
   }
 }
