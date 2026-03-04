@@ -1,0 +1,44 @@
+.contact {
+  padding-top: 10rem;
+  padding-bottom: 2.5rem;
+  position: relative;
+}
+
+/* Arrow back */
+.backBtn {
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  z-index: 20;
+}
+
+.backBtn img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.backBtn:hover {
+  opacity: 0.8;
+}
+
+.contactInner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  text-align: center;
+  display: grid;
+  gap: 12px;
+}
+
+.contactLine {
+  font-size: 14px;
+  color: #111;
+}

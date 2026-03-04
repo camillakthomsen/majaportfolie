@@ -1,0 +1,57 @@
+.home {
+  width: 100%;
+  position: relative; /* så menu kan placeres pænt */
+}
+
+.homeImg {
+  display: block;
+  width: 40%;
+  height: auto;
+  object-fit: cover;
+  margin: 2rem auto 1rem;
+}
+
+/* Menu til højre på forsiden */
+.homeMenu {
+  position: fixed;
+  right: 80px;
+  top: 2rem;
+  width: 250px;
+  text-align: right;
+
+  display: grid;
+  gap: 10px;
+}
+
+.homeMenuTitle {
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.homeMenuLink {
+  color: #111;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.homeMenuLink:hover {
+  color: #e26f36;
+}
+
+/* Mobil: centrer menuen under billedet */
+@media (max-width: 768px) {
+  .homeMenu {
+    position: static;
+    width: auto;
+    text-align: center;
+    margin: 16px 0 0;
+    justify-items: center;
+  }
+
+  .homeImg {
+    width: 70%;
+  }
+}
