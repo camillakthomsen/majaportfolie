@@ -13,7 +13,7 @@ import a8 from "../photo/insta7.png";
 import a9 from "../photo/insta8.png";
 import a10 from "../photo/insta9.jpg";
 
-const images = [a1, a2, a3, a10, a5, a6, a7, a8, a9, a4];
+const images = [a1, a2, a3, a6, a10, a5, a7, a8, a9, a4];
 
 export default function About() {
   return (

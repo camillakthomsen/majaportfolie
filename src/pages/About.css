@@ -49,7 +49,7 @@
 /* Ens “kort” look */
 .aboutImg {
   width: 100%;
-  aspect-ratio: 1 / 1;   /* instagram-ish (kvadrat) */
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   display: block;
   background: #f3f3f3;
@@ -64,7 +64,7 @@
 
 .aboutText p {
   margin: 0 0 14px 0;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.7;
   color: #000000;
   opacity: 0.9;
