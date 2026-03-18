@@ -18,8 +18,8 @@ export default function Footer() {
         <div className="footerCenter">© 2026 All rights reserved</div>
 
         <div className="footerRight">
-          <div>majan johansen@uio.dk</div>
-          <div>+45 00 00 00 00</div>
+          <div>majanj@outlook.dk</div>
+          <div>+45 61 79 02 91</div>
         </div>
       </div>
     </footer>
