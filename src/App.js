@@ -6,6 +6,12 @@ import Portfolio from "./pages/Portolio";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 
+import LuksusBank from "./pages/LuksusBankInstagramPosts";
+import LuksusBankReels from "./pages/LuksusBankInstagramReels";
+import LuksusBankCompaigns from "./pages/LuksusBankCampaings";
+import PradaVIA from "./pages/Prada";
+import Stoy from "./pages/Stoy";
+
 function App() {
   return (
     <Router>
@@ -16,6 +22,13 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+
+          <Route path="/luksusbankinstagramposts" element={<LuksusBank />}/>
+          <Route path="/luksusbankinstagramreels" element={<LuksusBankReels />}/>
+          <Route path="/luksusbankcompaings" element={<LuksusBankCompaigns />}/>
+          <Route path="/pradaVIA" element={<PradaVIA />}/>
+          <Route path="/stoy" element={<Stoy />}/>
+
         </Routes>
       </main>
 

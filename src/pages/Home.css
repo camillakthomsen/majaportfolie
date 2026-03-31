@@ -5,9 +5,11 @@
 
 .homeImg {
   display: block;
-  width: 40%;
-  height: auto;
+  width: 100%;
+  max-width: 280px;
+  height: 440px;
   object-fit: cover;
+  object-position: center;
   margin: 2rem auto 1rem;
 }
 

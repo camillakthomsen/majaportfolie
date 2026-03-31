@@ -48,11 +48,18 @@
 }
 
 .imgWrap {
+  display: block;
   position: relative;
   width: 100%;
   aspect-ratio: 4 / 5;
   overflow: hidden;
   background: #f3f3f3;
+}
+
+.imgA,
+.imgB {
+  width: 100%;
+  display: block;
 }
 
 /* Billeder fylder rammen */

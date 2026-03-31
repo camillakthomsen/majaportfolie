@@ -3,21 +3,58 @@ import { Link } from "react-router-dom";
 
 import arrowBack from "../photo/arrowback.png";
 
-// Eksempel-billeder (skift så de matcher dine filer)
-import p1a from "../photo/luksusbank1.png";
-import p1b from "../photo/luksusbank2.png";
-import p2a from "../photo/onlyherning1.png";
-import p2b from "../photo/onlyherning2.png";
-import p3a from "../photo/harrystyles1.png";
-import p3b from "../photo/harrystyles2.png";
-import p4a from "../photo/stoy1.png";
-import p4b from "../photo/stoy2.png";
+import p1a from "../photo/l3.png";
+import p1b from "../photo/l10.png";
+import p2a from "../photo/lub7.png";
+import p2b from "../photo/lub9.png";
+import p3a from "../photo/lbc1.png";
+import p3b from "../photo/lbc2.png";
+import p4a from "../photo/s3.png";
+import p4b from "../photo/s1.png";
+import p5a from "../photo/p3.png";
+import p5b from "../photo/p1.png";
 
 const items = [
-  { id: 1, title: "LUKSUS BANK", subtitle: "SOME ANSVARLIG", imgA: p1a, imgB: p1b },
-  { id: 2, title: "ONLY, HERNINGCENTRET", subtitle: "SOME ANSVARLIG", imgA: p2a, imgB: p2b },
-  { id: 3, title: "HARRY STYLES", subtitle: "KONCEPTUDVIKLING", imgA: p3a, imgB: p3b },
-  { id: 4, title: "STOY", subtitle: "E-COMMERCE PRAKTIKANT", imgA: p4a, imgB: p4b },
+  {
+    id: 1,
+    title: "LUKSUSBANK",
+    subtitle: "Instagram Posts",
+    imgA: p1a,
+    imgB: p1b,
+    path: "/luksusbankinstagramposts",
+  },
+  {
+    id: 2,
+    title: "LUKSUSBANK",
+    subtitle: "Instagram Reels",
+    imgA: p2a,
+    imgB: p2b,
+    path: "/luksusbankinstagramreels",
+  },
+  {
+    id: 3,
+    title: "LUKSUSBANK",
+    subtitle: "Campaigns",
+    imgA: p3a,
+    imgB: p3b,
+    path: "/luksusbankcompaings",
+  },
+  {
+    id: 4,
+    title: "STOY",
+    subtitle: "E-COMMERCE INTERN",
+    imgA: p4a,
+    imgB: p4b,
+    path: "/stoy",
+  },
+  {
+    id: 5,
+    title: "PRADA",
+    subtitle: "EXPLORE THE INDUSTRY",
+    imgA: p5a,
+    imgB: p5b,
+    path: "/pradaVIA",
+  },
 ];
 
 export default function Portfolio() {
@@ -35,10 +72,10 @@ export default function Portfolio() {
       <div className="portfolioGrid">
         {items.map((it) => (
           <figure key={it.id} className="portfolioCard" onClick={toggleImage}>
-            <div className="imgWrap">
+            <Link to={it.path} className="imgWrap">
               <img className="imgA" src={it.imgA} alt={`${it.title} ${it.subtitle}`} />
               <img className="imgB" src={it.imgB} alt={`${it.title} ${it.subtitle} alternate`} />
-            </div>
+            </Link>
 
             <figcaption className="caption">
               <div className="captionTitle">{it.title}</div>

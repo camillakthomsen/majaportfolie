@@ -1,0 +1,120 @@
+.projectPage {
+  width: 100%;
+  background: #ffffff;
+  padding: 48px 0 64px;
+}
+
+/* Arrow back */
+.backBtn {
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  z-index: 20;
+}
+
+.backBtn img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.backBtn:hover {
+  opacity: 0.8;
+}
+
+.projectHeader {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.projectHeader h1,
+.projectHeader h2 {
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.projectHeader h1 {
+  font-size: 40px;
+  margin-bottom: 4px;
+}
+
+.projectHeader h2 {
+  font-size: 18px;
+}
+
+.imageSlider {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 0 24px 12px;
+  scrollbar-width: none; /* Firefox */
+}
+
+.imageSlider::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+.slideImg {
+  flex: 0 0 320px;   /* bredde på hvert billede */
+  height: 420px;
+  object-fit: cover;
+  scroll-snap-align: start;
+  display: block;
+  background: #ffffff;
+}
+
+.projectText {
+  max-width: 700px;
+  margin: 36px auto 0;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.projectText p {
+  margin: 0 0 14px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #222;
+}
+
+/* Mobil */
+@media (max-width: 768px) {
+  .projectPage {
+    padding: 32px 0 48px;
+  }
+
+  .projectHeader h1 {
+    font-size: 22px;
+  }
+
+  .projectHeader h2 {
+    font-size: 15px;
+  }
+
+  .slideImg {
+    flex: 0 0 240px;
+    height: 320px;
+  }
+
+  .imageSlider {
+    gap: 12px;
+    padding: 0 16px 10px;
+  }
+
+  .projectText {
+    margin-top: 28px;
+  }
+
+  .projectText p {
+    font-size: 14px;
+  }
+}

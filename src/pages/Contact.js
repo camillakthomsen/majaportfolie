@@ -11,8 +11,8 @@ export default function Contact() {
 
       <div className="contactInner">
         <div className="contactLine">Maja Nygaard Johansen</div>
-        <div className="contactLine">+45 00 00 00 00</div>
-        <div className="contactLine">majan.johansen@uio.dk</div>
+        <div className="contactLine">+45 61 79 02 91</div>
+        <div className="contactLine">majanj@outlook.dk</div>
       </div>
     </section>
   );
