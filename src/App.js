@@ -11,6 +11,7 @@ import LuksusBankReels from "./pages/LuksusBankInstagramReels";
 import LuksusBankCompaigns from "./pages/LuksusBankCampaings";
 import PradaVIA from "./pages/Prada";
 import Stoy from "./pages/Stoy";
+import Bolia from "./pages/Bolia";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/luksusbankcompaings" element={<LuksusBankCompaigns />}/>
           <Route path="/pradaVIA" element={<PradaVIA />}/>
           <Route path="/stoy" element={<Stoy />}/>
+          <Route path="/bolia" element={<Bolia />}/>
 
         </Routes>
       </main>

@@ -33,7 +33,16 @@ export default function Prada() {
 
   <div className="projectText">
     <p>
-        A project created at VIA, focused on analyzing PRADA’s brand identity and exploring its position within the fashion industry.
+        As part of my Brand Management project at VIA, I developed a transmedia campaign for PRADA exploring how a luxury brand can stay relevant in a time shaped by climate awareness and changing consumer values.
+    </p>
+    <p>
+      The concept, End of Elegance, combines aesthetics with responsibility and invites a Gen Z audience to engage, reflect and participate in the brand universe.
+    </p>
+    <p>
+      Through a mix of social media, user generated content and immersive experiences, the campaign creates a cohesive and interactive brand story across platforms.
+    </p>
+    <p>
+      This project strengthened my ability to translate theory into a strategic and visually driven concept, combining creativity with a strong understanding of branding and cultural relevance.
     </p>
   </div>
 </div>

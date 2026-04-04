@@ -13,6 +13,9 @@ import p4a from "../photo/s3.png";
 import p4b from "../photo/s1.png";
 import p5a from "../photo/p3.png";
 import p5b from "../photo/p1.png";
+import p6a from "../photo/b11.png";
+import p6b from "../photo/b10.png";
+
 
 const items = [
   {
@@ -48,9 +51,17 @@ const items = [
     path: "/stoy",
   },
   {
+    id: 4,
+    title: "BOLIA",
+    subtitle: "INNOVATION PROJECT - VIA",
+    imgA: p6a,
+    imgB: p6b,
+    path: "/bolia",
+  },
+  {
     id: 5,
     title: "PRADA",
-    subtitle: "EXPLORE THE INDUSTRY",
+    subtitle: "EXPLORE THE INDUSTRY - VIA",
     imgA: p5a,
     imgB: p5b,
     path: "/pradaVIA",

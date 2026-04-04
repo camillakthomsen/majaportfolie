@@ -37,7 +37,16 @@ export default function LuksusBankInstagramPosts() {
 
   <div className="projectText">
     <p>
-      An intern at Stoy.....
+      During my internship at STOY, I gained hands on experience working with branding and marketing across both creative and operational areas.
+    </p>
+    <p>
+      I worked extensively with email marketing in Klaviyo, where I developed and set up newsletters and flows, always with a focus on creating visually strong and engaging communication. Alongside this, I contributed to writing brand and SEO texts, ensuring a consistent tone of voice and optimized content across platforms.
+    </p>
+    <p>
+      I also worked within Shopify, handling and structuring master data, which strengthened my understanding of how product information, branding and user experience are closely connected. Through Selveo, I gained insight into logistics processes, including picking and packing, giving me a broader understanding of the full customer journey from backend to final delivery.
+    </p>
+    <p>
+      This experience has given me a holistic perspective on how branding, marketing and e commerce work together. I approach my work with both creativity and structure, always aiming to create cohesive brand experiences that are not only visually strong but also aligned with performance and business goals.
     </p>
   </div>
 </div>
