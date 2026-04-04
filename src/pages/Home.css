@@ -6,8 +6,8 @@
 .homeImg {
   display: block;
   width: 100%;
-  max-width: 280px;
-  height: 440px;
+  max-width: 370px;
+  height: 510px;
   object-fit: cover;
   object-position: center;
   margin: 2rem auto 1rem;
